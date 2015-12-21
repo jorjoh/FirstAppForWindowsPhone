@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ERROR</Machine>
+    <WindowsUser>Erik</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d6ac6429-9955-45b4-b146-96013b0d5784</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>2E5D56179EC58032854C745D8097D732AAEB261F3EA9E1483124072ABBD005ED</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d6ac6429-9955-45b4-b146-96013b0d5784_1.0.0.0_neutral__0ea4y0c98pgre</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d6ac6429-9955-45b4-b146-96013b0d5784_0ea4y0c98pgre!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d6ac6429-9955-45b4-b146-96013b0d5784</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jørgen Johansen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-29T16:58:40.346</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Release\Alkiskalkis.Windows.exe">
+      <PackagePath>Alkiskalkis.Windows.exe</PackagePath>
+      <Modified>2015-04-29T19:02:02.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\r8.png">
+      <PackagePath>Assets\r8.png</PackagePath>
+      <Modified>2015-04-29T16:16:01.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\ol.jpg">
+      <PackagePath>Assets\ol.jpg</PackagePath>
+      <Modified>2015-04-29T16:35:21.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\petterkjoring.jpg">
+      <PackagePath>Assets\petterkjoring.jpg</PackagePath>
+      <Modified>2015-04-29T16:56:00.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\signature.jpg">
+      <PackagePath>Assets\signature.jpg</PackagePath>
+      <Modified>2015-04-29T15:40:01.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-16T12:43:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-29T19:02:02.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Release\Alkiskalkis.Windows.xr.xml">
+      <PackagePath>Alkiskalkis.Windows.xr.xml</PackagePath>
+      <Modified>2015-04-29T18:52:16.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erik\Documents\Visual Studio 2013\Projects\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-29T16:58:40.303</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

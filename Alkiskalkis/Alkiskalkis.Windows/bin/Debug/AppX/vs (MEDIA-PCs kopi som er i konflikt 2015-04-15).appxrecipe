@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MEDIA-PC</Machine>
+    <WindowsUser>Jørgen Johansen</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d6ac6429-9955-45b4-b146-96013b0d5784</PackageIdentityName>
+    <IntermediateOutputPath>D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>88845D0A198A1E06F0D3153EDEFD37E6A1A394721A09FAD20EBF83F34C645A77</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d6ac6429-9955-45b4-b146-96013b0d5784_1.0.0.0_neutral__0ea4y0c98pgre</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d6ac6429-9955-45b4-b146-96013b0d5784_0ea4y0c98pgre!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d6ac6429-9955-45b4-b146-96013b0d5784</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jørgen Johansen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-15T17:38:00.532</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Debug\Alkiskalkis.Windows.exe">
+      <PackagePath>Alkiskalkis.Windows.exe</PackagePath>
+      <Modified>2015-04-15T17:55:16.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-12T19:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-15T16:53:18.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-15T17:49:15.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Debug\Alkiskalkis.Windows.xr.xml">
+      <PackagePath>Alkiskalkis.Windows.xr.xml</PackagePath>
+      <Modified>2015-04-15T17:49:15.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dropbox\Skole\PRG-2000\Visual Studio 2013\Projects\Forelesning\Alkiskalkis\Alkiskalkis\Alkiskalkis.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-15T17:38:00.433</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

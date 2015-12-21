@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="Alkiskalkis.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Alkiskalkis"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="ol_vol" HorizontalAlignment="Left" Margin="271,88,0,0" TextWrapping="Wrap" Text="0.047" VerticalAlignment="Top" Width="87" IsReadOnly="True" />
+        <TextBlock HorizontalAlignment="Left" Margin="33,88,0,0" TextWrapping="Wrap" Text="Øl" VerticalAlignment="Top" Height="33" Width="135" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,278,0,0" TextWrapping="Wrap" Text="Hetvin" VerticalAlignment="Top" Height="33" Width="135" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,212,0,0" TextWrapping="Wrap" Text="Brennvin" VerticalAlignment="Top" Height="33" Width="135" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,149,0,0" TextWrapping="Wrap" Text="Vin" VerticalAlignment="Top" Height="33" Width="135" FontSize="24"/>
+        <TextBox x:Name="hotWineBox" HorizontalAlignment="Left" Margin="271,279,0,0" TextWrapping="Wrap" Text="0.18" VerticalAlignment="Top" Width="87" IsReadOnly="True"/>
+        <TextBox x:Name="brennevinVol" HorizontalAlignment="Left" Margin="271,212,0,0" TextWrapping="Wrap" Text="0.4" VerticalAlignment="Top" Width="87" IsReadOnly="True"/>
+        <TextBox x:Name="wineBox" HorizontalAlignment="Left" Margin="271,149,0,0" TextWrapping="Wrap" Text="0.14" VerticalAlignment="Top" Width="87" IsReadOnly="True"/>
+        <TextBox x:Name="ol_ml" HorizontalAlignment="Left" Margin="446,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="vin_ml" HorizontalAlignment="Left" Margin="446,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="sprit_ml" HorizontalAlignment="Left" Margin="446,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="hotWine_ml" HorizontalAlignment="Left" Margin="446,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
+        <TextBlock HorizontalAlignment="Left" Margin="249,28,0,0" TextWrapping="Wrap" Text="vol%" VerticalAlignment="Top" Height="33" Width="174" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="423,28,0,0" TextWrapping="Wrap" Text="Mengde i (ml)" VerticalAlignment="Top" Height="33" Width="174" FontSize="24"/>
+        <TextBox x:Name="ol" HorizontalAlignment="Left" Margin="662,88,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="hotWineTextbox" HorizontalAlignment="Left" Margin="662,279,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="sprit" HorizontalAlignment="Left" Margin="662,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="vin" HorizontalAlignment="Left" Margin="662,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="87"/>
+        <TextBlock HorizontalAlignment="Left" Margin="662,28,0,0" TextWrapping="Wrap" Text="Alkohol i gram" VerticalAlignment="Top" Height="33" Width="174" FontSize="24"/>
+        <Button x:ConnectionId='1' Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,334,0,0"                     />
+        <TextBox x:Name="resultat_vol" HorizontalAlignment="Left" Margin="662,337,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="87"/>
+        <Button x:ConnectionId='2' Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,723,0,0" RenderTransformOrigin="0.579,0.746"                       />
+        <TextBlock HorizontalAlignment="Left" Margin="33,422,0,0" TextWrapping="Wrap" Text="Promillebergening" VerticalAlignment="Top" Height="33" Width="217" FontSize="24" RenderTransformOrigin="0.044,-0.634"/>
+
+        <RadioButton x:Name="mann" Content="Mann" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="57,527,0,0" GroupName="kjonn" />
+        <RadioButton x:Name="kvinne" Content="Kvinne" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="57,558,0,0" GroupName="kjonn"/>
+
+        <TextBox x:Name="bodyWeight" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Margin="174,599,0,0" Width="119"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,598,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="132" FontSize="24" RenderTransformOrigin="0.044,-0.634">
+        	<Run Text="Kroppsvekt"/>
+        	<Run Text=":"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="317,598.027,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="37.972" FontSize="24" RenderTransformOrigin="0.044,-0.634" Text="kg" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.377"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="85" Width="132" FontSize="24" RenderTransformOrigin="0.044,-0.634" Text="Antall timer fra drikkestart"/>
+        <TextBox x:Name="antallTimer" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Margin="174,689,0,0" Width="119"/>
+        <TextBlock HorizontalAlignment="Left" Margin="321.478,686.087,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="37.972" FontSize="24" RenderTransformOrigin="0.044,-0.634" Text="T" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-0.377"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="promille_renaStyle" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Margin="502,618,0,0" Width="119"/>
+        <TextBlock HorizontalAlignment="Left" Margin="502,580,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="132" FontSize="24" RenderTransformOrigin="0.044,-0.634" Text="Promille:"/>
+        <TextBlock x:Name="kommentarTilPromille" HorizontalAlignment="Left" Margin="677,603,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="74" Width="209" FontSize="14"/>
+
+    </Grid>
+</Page>
+
